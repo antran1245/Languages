@@ -24,7 +24,7 @@
 			<tbody>
 				<c:forEach var="language" items="${languages}">
 					<tr>
-						<td><a href="">${language.getName()}</a></td>
+						<td><a href="/languages/${language.getId()}">${language.getName()}</a></td>
 						<td>${language.getCreator()}</td>
 						<td>${language.getCurrentVersion()}</td>
 						<td>
